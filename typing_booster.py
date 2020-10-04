@@ -83,16 +83,16 @@ wordlabel=Label(root,text=words[0],font=('arial',20,'italic bold'),bg='maroon',
                 fg='lime')
 wordlabel.place(x=350,y=290)
 
-scorelabel=Label(root,text='Your Score :',font=('algerian',20,'italic bold'),bg='maroon',fg='lime')
+scorelabel=Label(root,text='Your Score :',font=('veradana',20,'italic bold'),bg='maroon',fg='lime')
 scorelabel.place(x=10,y=100)
 
-scorelabelcount=Label(root,text=score,font=('algerian',20,'italic bold'),bg='maroon',fg='aqua')
+scorelabelcount=Label(root,text=score,font=('veradana',20,'italic bold'),bg='maroon',fg='aqua')
 scorelabelcount.place(x=60,y=150)
 
-timelabel=Label(root,text='Time Left :',font=('algerian',20,'italic bold'),bg='maroon',fg='lime')
+timelabel=Label(root,text='Time Left :',font=('veradana',20,'italic bold'),bg='maroon',fg='lime')
 timelabel.place(x=650,y=100)
 
-timelabelcount=Label(root,text=time,font=('algerian',20,'italic bold'),bg='maroon',fg='aqua')
+timelabelcount=Label(root,text=time,font=('veradana',20,'italic bold'),bg='maroon',fg='aqua')
 timelabelcount.place(x=710,y=150)
 
 instructlabel=Label(root,text='Type the word and hit enter.',font=('arial',30,'italic bold'),bg='maroon',
